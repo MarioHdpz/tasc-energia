@@ -316,6 +316,10 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 }
 
+.dark .slider-caption {
+	background-color: rgba(0,0,0,0.7);
+}
+
 .not-dark .slider-caption,
 .not-dark .slider-caption h2 {
 	color: #222;
