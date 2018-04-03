@@ -41,7 +41,7 @@
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide dark" style="background-image: url('images/oil/port-arthur.jpg');">
-							<div class="container clearfix">
+							<div class="container clearfix rgba-cover">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp"><?php echo $lang['main']['company']; ?></h2>
 									<p class="d-none d-sm-block" data-caption-animate="fadeInUp" data-caption-delay="200"><?php echo $lang['main']['description']; ?></p>
@@ -157,6 +157,9 @@
 						<?php foreach ($lang['opportunities']['cards1'] as $key => $card): ?>
 							<div class="col_one_fourth <?php echo ($key == 3) ? 'col_last' : '' ?>">
 								<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn">
+									<div class="fbox-icon">
+										<img src="images/icons/<?php echo $card['icon'] ?>" alt="<?php echo $card['title'] ?>">
+									</div>
 									<h3><?php echo $card['title'] ?></h3>
 									<p><?php echo $card['content'] ?></p>
 								</div>
@@ -173,6 +176,9 @@
 						<?php foreach ($lang['opportunities']['cards2'] as $key => $card): ?>
 							<div class="col_one_fourth <?php echo ($key == 3) ? 'col_last' : '' ?>">
 								<div class="feature-box fbox-center fbox-effect nobottomborder" data-animate="fadeIn">
+									<div class="fbox-icon">
+										<img src="images/icons/<?php echo $card['icon'] ?>" alt="<?php echo $card['title'] ?>">
+									</div>
 									<h3><?php echo $card['title'] ?></h3>
 									<p><?php echo $card['content'] ?></p>
 								</div>
@@ -180,7 +186,7 @@
 						<?php endforeach ?>
 					</div>
 
-					<div class="divider divider-short divider-center topmargin-lg"><i class="icon-star3"></i></div>
+					<!--<div class="divider divider-short divider-center topmargin-lg"><i class="icon-star3"></i></div>-->
 	
 				</section>
 
@@ -198,7 +204,7 @@
 							<div class="col-lg-6 bottommargin">
 								<div class="team team-list clearfix">
 									<div class="team-image">
-										<img src="images/team/3.jpg" alt="<?php echo $card['name']; ?>">
+										<img src="images/team/<?php echo $card['picture']; ?>" alt="<?php echo $card['name']; ?>">
 									</div>
 									<div class="team-desc">
 										<div class="team-title"><h4><?php echo $card['name']; ?></h4></div>
@@ -228,26 +234,24 @@
 
 				<section id="section-services" class="page-section topmargin-lg">
 
-					<div class="heading-block center bottommargin-lg">
+					<div class="heading-block center">
 						<h2><?php echo $lang['services']['title']; ?></h2>
 						<span><?php echo $lang['services']['subtitle']; ?></span>
 					</div>
 
-					<div class="container clearfix">
+					<div class="container clearfix centered">
+						<?php foreach ($lang['services']['sections'] as $key => $section): ?>
+							<div class="col_half nobottommargin <?php echo ($key == 1) ? 'col_last' : '' ?>">
+								<h3><?php echo $section['title'] ?></h3>
+								<ul>
+									<?php foreach ($section['content'] as $bullet): ?>
+										<li><?php echo $bullet ?></li>
+									<?php endforeach ?>
+								</ul>
+							</div>
+						<?php endforeach ?>
 
-					<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-						<div class="carousel-inner">
-							<?php foreach ($lang['services']['sections'] as $key => $section): ?>
-								<div class="carousel-item <?php echo ($key == 0) ? 'active' : '' ?>">
-									<h3><?php echo $section['title'] ?></h3>
-									<ul>
-										<?php foreach ($section['content'] as $bullet): ?>
-											<li><?php echo $bullet ?></li>
-										<?php endforeach ?>
-									</ul>
-								</div>
-							<?php endforeach ?>
-						</div>
+						<div class="clear"></div>
 					</div>
 
 					<div class="divider divider-short divider-center topmargin-lg"><i class="icon-star3"></i></div>

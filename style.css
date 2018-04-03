@@ -117,6 +117,8 @@ body,
 
 /* ----------------------------------------------------------------
 	Basic
+	blue: #264398
+	green : #99e032
 -----------------------------------------------------------------*/
 
 dl, dt, dd, ol{
@@ -7445,8 +7447,8 @@ body:not(.device-touch) .button.button-full strong {
 
 .feature-box .fbox-icon i,
 .feature-box .fbox-icon img {
-	border-radius: 50%;
-	background-color: #1ABC9C;
+	/*border-radius: 50%;
+	background-color: #1ABC9C;*/
 }
 
 .feature-box .fbox-icon i {
@@ -7493,8 +7495,8 @@ body:not(.device-touch) .button.button-full strong {
 -----------------------------------------------------------------*/
 
 .feature-box.fbox-outline .fbox-icon {
-	border: 1px solid #1ABC9C;
-	border-radius: 50%;
+	/*border: 1px solid #1ABC9C;
+	border-radius: 50%;*/
 	padding: 3px;
 }
 
@@ -13572,4 +13574,12 @@ body:not(.no-transition) #wrapper,
 	text-shadow: none !important;
 }
 
+#section-services > div.container.clearfix.centered > div > ul {
+	font-size: 1.2rem;
+}
 
+#slider .slider-caption h2, #slider .slider-caption p {
+	background-color: rgba(1,1,1,0.7);
+	margin: 0 -100vw;
+	padding: 0 100vw;
+}
