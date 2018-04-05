@@ -8,12 +8,13 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'mariohdpz@gmail.com', // Your Email Address
-				'name' => 'Mario HD' // Your Name
+				'email' => 'info@tasc-energia.com', // Your Email Address
+				'name' => 'Info Tasc Energía' // Your Name
 			);
 
 // Form Processing Messages
-$message_success = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
+$message_success = 'Hemos recibido <strong>satisfctoriamente</strong> tu correo y responderemos en cuanto sea posible';
+//$message_success = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
 
 // Add this only if you use reCaptcha with your Contact Forms
 $recaptcha_secret = ''; // Your reCaptcha Secret
@@ -49,7 +50,6 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 			$name = isset($name) ? "Name: $name<br><br>" : '';
 			$email = isset($email) ? "Email: $email<br><br>" : '';
 			$phone = isset($phone) ? "Phone: $phone<br><br>" : '';
-			$service = isset($service) ? "Service: $service<br><br>" : '';
 			$message = isset($message) ? "Message: $message<br><br>" : '';
 
 			$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This Form was submitted from: ' . $_SERVER['HTTP_REFERER'] : '';

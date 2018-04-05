@@ -361,7 +361,7 @@
 
 						<div class="clear"></div>
 
-						<i class="icon-envelope2"></i> info@tasc-energia.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369
+						<i class="icon-envelope2"></i> info@tasc-energia.com <!--<span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369-->
 					</div>
 
 				</div>
