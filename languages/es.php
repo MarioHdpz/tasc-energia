@@ -124,7 +124,7 @@ $lang = array(
                     'Participación directa y personal en la adquisición de equipo de plataformas petroleras y experiencia en la relación contratistas-PEMEX por 8 años.',
                     'Contador Público por la Universidad Autónoma de México.'
                 ],
-                'picture' => '2.jpg'            
+                'picture' => 'nouser.jpg'            
             ],
             [
                 'name' => 'Julian Rincón Acebo',
@@ -139,7 +139,7 @@ $lang = array(
                     -Oro Negro: Gerente de Perforación 5 Jack Ups.',
                     'Gerente de Desarrollo de campos para Petróleos Mexicanos: Cantarell, Abkatun, Ku, Maloob & Zaap.'
                 ],
-                'picture' => '2.jpg'
+                'picture' => 'nouser.jpg'
             ],
             [
                 'name' => 'Fernando Blanco',
@@ -149,7 +149,7 @@ $lang = array(
                     'Representante técnico y Gerente de Operaciones Senior para COSL, Goimar y Protexa.',
                     'Ingeniero Industrial por el Instituto Tecnológico Regional de Torreón, Coahuila,  México.'
                 ],
-                'picture' => '2.jpg'
+                'picture' => 'nouser.jpg'
             ],
             [
                 'name' => 'Manuel Ferrer',
@@ -159,7 +159,7 @@ $lang = array(
                     'Fue también Gerente de Operaciones para Diamond Offshore, Rowan Companies, Ensco Drilling, Nabors, y Noble.',
                     'Maestría en Administración de Negocios, egresado de La Universidad Autónoma de Guadalajara.'
                 ],
-                'picture' => '2.jpg'
+                'picture' => 'nouser.jpg'
             ]
         ]
     ],
