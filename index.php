@@ -5,6 +5,7 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Mario HD" />
+	<meta name="description" content="<?php echo $lang['main']['description']; ?>">
 	<link rel="icon" href="images/favicon.png">
 
 	<!-- OPEN GRAPH CONTENT -->
@@ -17,6 +18,7 @@
 	<meta property="business:contact_data:region" content="Ciudad de México">
 	<meta property="business:contact_data:postal_code" content="11700">
 	<meta property="business:contact_data:country_name" content="México">
+	<meta property="og:description" content="<?php echo $lang['main']['description']; ?>" />
 
 	<!-- Stylesheets
 	============================================= -->
