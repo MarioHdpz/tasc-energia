@@ -13583,3 +13583,9 @@ body:not(.no-transition) #wrapper,
 	margin: 0 -100vw;
 	padding: 0 100vw;
 }
+
+@media (min-width: 576px) {
+    .row.team-container {
+		padding: 10%;
+	}
+}

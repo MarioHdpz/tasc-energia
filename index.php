@@ -199,9 +199,9 @@
 
 					<div class="container clearfix">
 						
-						<div class="row">
+						<div class="row team-container">
 							<?php foreach ($lang['team']['cards'] as $key => $card): ?>
-							<div class="col-lg-6 bottommargin">
+							<div class="col-xl-12  bottommargin">
 								<div class="team team-list clearfix">
 									<div class="team-image">
 										<img src="images/team/<?php echo $card['picture']; ?>" alt="<?php echo $card['name']; ?>">
@@ -385,7 +385,7 @@
 	============================================= -->
 	<script src="js/functions.js"></script>
 
-	<script src="https://maps.google.com/maps/api/js?key=AIzaSyDMxJ92oBkSnVNHFX3R8XhtYQPEgk1_IiI"></script>
+	<script src="https://maps.google.com/maps/api/js?key=AIzaSyBFTcDdHnU3dncnsyV4UNAv-RMeqrCN8v4"></script>
 	<script src="js/jquery.gmap.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

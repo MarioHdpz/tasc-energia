@@ -103,6 +103,17 @@ $lang = array(
                     'Ingeniero Civil por la UNAM con Maestrías en Planeación y en Investigacion de Operaciones'
                 ],
                 'picture' => 'antonio_arana.jpeg'
+            ],            
+            [
+                'name' => 'Luis Guillermo Ucha Gómez',
+                'content' => [
+                    'Más de 35 años de experiencia operativa en la industria Mexicana del Petróleo y Gas.',
+                    '15+ años de experiencia en perforación, terminación e intervención a pozos.',
+                    '10+ años de experiencia en Desarrollo de campos en Aguas Profundas, sistemas submarinos y equipos flotantes de producción y almacenamiento.',
+                    '10+ años de experiencia en Administración de proyectos para la explotación de campos marinos.',
+                    'Ingeniero Petrolero egresado de la UNAM, con maestría en Administración de Negocios para ejecutivos en programa conjunto de Tulane University, Universidad Autónoma del Carmen y el ITESM Campus Monterrey y egresado del programa Dirección de Empresa D1 del IPADE.'
+                ],
+                'picture' => 'luis_ucha.jpg'
             ],
             [
                 'name' => 'José A. Ballesteros',
@@ -149,17 +160,6 @@ $lang = array(
                     'Maestría en Administración de Negocios, egresado de La Universidad Autónoma de Guadalajara.'
                 ],
                 'picture' => '2.jpg'
-            ],
-            [
-                'name' => 'Luis Guillermo Ucha González',
-                'content' => [
-                    'Más de 35 años de experiencia operativa en la industria Mexicana del Petróleo y Gas.',
-                    '15+ años de experiencia en perforación, terminación e intervención a pozos.',
-                    '10+ años de experiencia en Desarrollo de campos en Aguas Profundas, sistemas submarinos y equipos flotantes de producción y almacenamiento.',
-                    '10+ años de experiencia en Administración de proyectos para la explotación de campos marinos.',
-                    'Ingeniero Petrolero egresado de la UNAM, con maestría en Administración de Negocios para ejecutivos en programa conjunto de Tulane University, Universidad Autónoma del Carmen y el ITESM Campus Monterrey y egresado del programa Dirección de Empresa D1 del IPADE.'
-                ],
-                'picture' => 'luis_ucha.jpg'
             ]
         ]
     ],
