@@ -114,7 +114,7 @@
 						<div class="col_one_third nobottommargin <?php echo ($key == 2) ? 'col_last' : '' ?>">
 							<div class="feature-box media-box">
 								<div class="fbox-media">
-									<img src="images/services/<?php echo $key+1 ?>.jpg" alt="<?php echo $cards['title']; ?>">
+									<img src="images/oil/<?php echo $card['image'] ?>" alt="<?php echo $cards['title']; ?>">
 								</div>
 								<div class="fbox-desc">
 									<h3><?php echo $card['title']; ?></h3>
@@ -129,7 +129,7 @@
 
 					</div>
 
-					<div class="section dark parallax nobottommargin" style="padding: 80px 0;background-image: url('images/parallax/1.jpg');" data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -300px;">
+					<div class="section dark parallax nobottommargin" style="padding: 80px 0;background-image: url('images/oil/plataforma_lejos.jpg');" data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -300px;">
 
 						<div class="container clearfix">
 

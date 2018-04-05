@@ -17,15 +17,18 @@ $lang = array(
         'cards' => [
             [
                 'title' => '¿Qué áreas manejamos?',
-                'content' => 'Nos orientamos a servicios de desarrollo de campos Petroleros tanto en tierra como Costa Afuera incluyendo Agua Profundas así como administración de proyectos del sector Aceite y gas.'
+                'content' => 'Nos orientamos a servicios de desarrollo de campos Petroleros tanto en tierra como Costa Afuera incluyendo Agua Profundas así como administración de proyectos del sector Aceite y gas.',
+                'image' => 'ocean-platform.jpg'
             ],
             [
                 'title' => 'Nuestro objetivo',
-                'content' => 'Nuestro principal objetivo es posicionarnos como una de las principales proveedoras de servicios y consultorías en el sector de Energía, generando oportunidades que ofrece la Reforma Energética en México, aprovechado las capacidades y experiencia de nuevos participantes. '
+                'content' => 'Nuestro principal objetivo es posicionarnos como una de las principales proveedoras de servicios y consultorías en el sector de Energía, generando oportunidades que ofrece la Reforma Energética en México, aprovechado las capacidades y experiencia de nuevos participantes.',
+                'image' => 'drill.jpg'
             ],
             [
                 'title' => '¿Qué hacemos?',
-                'content' => 'Ofrecemos servicios, asesoría y apoyo técnico a las Empresas Operadoras que buscan participación en el mercado de desarrollo de campos en México, aprovechando la apertura del Sector favorecida por la la Reforma Energética.'
+                'content' => 'Ofrecemos servicios, asesoría y apoyo técnico a las Empresas Operadoras que buscan participación en el mercado de desarrollo de campos en México, aprovechando la apertura del Sector favorecida por la la Reforma Energética.',
+                'image' => 'helloquence.jpg'
             ],
 
         ]
