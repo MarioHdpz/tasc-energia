@@ -7,6 +7,17 @@
 	<meta name="author" content="Mario HD" />
 	<link rel="icon" href="images/favicon.png">
 
+	<!-- OPEN GRAPH CONTENT -->
+	<meta property="og:type" content="business.business">
+	<meta property="og:title" content="Tasc Energía">
+	<meta property="og:url" content="http://tasc-energia.com">
+	<meta property="og:image" content="http://tasc-energia.com/images/tasc-logo-image.png">
+	<meta property="business:contact_data:street_address" content="Bosque de los Ciruelos 140">
+	<meta property="business:contact_data:locality" content="Ciudad de México">
+	<meta property="business:contact_data:region" content="Ciudad de México">
+	<meta property="business:contact_data:postal_code" content="11700">
+	<meta property="business:contact_data:country_name" content="México">
+
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
