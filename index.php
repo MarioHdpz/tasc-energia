@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-<?php include('languages/es.php'); ?>
+<?php
+if (isset($_GET['en'])){
+	$en = true;
+	include('languages/en.php'); 
+} else {
+	include('languages/es.php'); 
+}
+?>
 <head>
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -98,6 +105,13 @@
 							<li><a href="#" data-href="#section-contact"><div><?php echo $lang['menu']['contact']; ?></div></a></li>
 						</ul>
 
+						<div id="top-search">
+							<a href="<?php echo ($en) ? '/?es' : '/?en' ?>">
+								<img src="images/icons/flags/<?php echo ($en) ? 'es' : 'en' ?>.png">
+								<strong><?php echo ($en) ? 'ES' : 'EN' ?></strong>
+							</a>
+						</div>
+
 					</nav><!-- #primary-menu end -->
 
 				</div>
@@ -150,7 +164,7 @@
 							<div class="col_full nobottommargin center" data-animate="bounceIn">
 								<!--<i class="i-plain i-xlarge divcenter nobottommargin icon-code"></i>-->
 								<div class="counter counter-lined"><span data-from="0" data-to="100" data-refresh-interval="5" data-speed="2000"></span>+</div>
-								<h5>Años de experiencia combinada</h5>
+								<h5><?php echo $lang['main']['years']; ?></h5>
 							</div>
 
 

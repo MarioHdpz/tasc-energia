@@ -3,7 +3,8 @@
 $lang = array(
     'main' => [
         'company' => 'Tasc Energía',
-        'description'=> 'Somos un equipo Directivo y Gerencial altamente calificado con más de 100 años de experiencia combinada en la Industria Mexicana de Aceite y Gas.'
+        'description'=> 'Somos un equipo Directivo y Gerencial altamente calificado con más de 100 años de experiencia combinada en la Industria Mexicana de Aceite y Gas.',
+        'years' => 'Años de experiencia combinada'
     ],
     'menu' => [
         'about' => 'Antecedentes',
@@ -119,6 +120,21 @@ $lang = array(
                 'picture' => 'luis_ucha.jpg'
             ],
             [
+                'name' => 'Julian Rincón Acebo',
+                'content' => [
+                    'Más de 40 años en experiencia operativa en perforación en Tierra y Costa Afuera.',
+                    'Gerente de Operación para: <br>
+                    -Petroleos Mexicanos: Supervisor de 30 equipos de perforación en Tierra y Semisumergibles, Jack Ups, Equipos Modulares. <br>
+                    -Nabors: Supervisor de 5 equipos Modulares. <br>
+                    -Pride: Supervisor de 2 Equipos Semisumergibles y 17 Jack Ups. <br>
+                    -COSL: Supervisor de 2 Equipos Modulares.<br>
+                    -Perforadora Latina. Gerente de Perforación 2 Jack Ups y un Equipo Modular.<br>
+                    -Oro Negro: Gerente de Perforación 5 Jack Ups.',
+                    'Gerente de Desarrollo de campos para Petróleos Mexicanos: Cantarell, Abkatun, Ku, Maloob & Zaap.'
+                ],
+                'picture' => 'julian_rincon.jpeg'
+            ],
+            [
                 'name' => 'José A. Ballesteros',
                 'content' => [
                     'Socio Director de Ballesteros Bracho y Compañía, S. C.'.
@@ -128,21 +144,6 @@ $lang = array(
                     'Contador Público por la Universidad Autónoma de México.'
                 ],
                 'picture' => 'nouser.jpg'            
-            ],
-            [
-                'name' => 'Julian Rincón Acebo',
-                'content' => [
-                    'Más de 40 años en experiencia operativa en perforación en Tierra y Costa Afuera.',
-                    'Gerente de Operación para:
-                    -Petroleos Mexicanos: Supervisor de 30 equipos de perforación en Tierra y Semisumergibles, Jack Ups, Equipos Modulares.
-                    -Nabors: Supervisor de 5 equipos Modulares.
-                    -Pride: Supervisor de 2 Equipos Semisumergibles y 17 Jack Ups.
-                    -COSL: Supervisor de 2 Equipos Modulares.
-                    -Perforadora Latina. Gerente de Perforación 2 Jack Ups y un Equipo Modular.
-                    -Oro Negro: Gerente de Perforación 5 Jack Ups.',
-                    'Gerente de Desarrollo de campos para Petróleos Mexicanos: Cantarell, Abkatun, Ku, Maloob & Zaap.'
-                ],
-                'picture' => 'nouser.jpg'
             ],
             [
                 'name' => 'Fernando Blanco',
