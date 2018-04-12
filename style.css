@@ -1732,7 +1732,7 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 #side-panel-trigger a {
 	display: block;
 	position: relative;
-	width: 14px;
+	width: 50px;
 	height: 14px;
 	font-size: 14px;
 	line-height: 20px;
@@ -1741,6 +1741,10 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 	-webkit-transition: color .3s ease-in-out;
 	-o-transition: color .3s ease-in-out;
 	transition: color .3s ease-in-out;
+}
+
+#top-search a img {
+	width: 40%;
 }
 
 #top-search a { z-index: 11; }
@@ -13587,5 +13591,25 @@ body:not(.no-transition) #wrapper,
 @media (min-width: 576px) {
     .row.team-container {
 		padding: 13%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	#header.full-header #primary-menu > ul {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+	#top-search > a.language-switch.language {
+		position: absolute;
+		top: 90px;
+	}
+}
+
+@media (max-width: 768px) {
+	#top-search > a.language-switch.language {
+		position: absolute;
+		top: 90px;
 	}
 }

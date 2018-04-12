@@ -106,7 +106,7 @@ if (isset($_GET['en'])){
 						</ul>
 
 						<div id="top-search">
-							<a href="<?php echo ($en) ? '/?es' : '/?en' ?>">
+							<a  class="language-switch language" href="<?php echo ($en) ? '/?es' : '/?en' ?>">
 								<img src="images/icons/flags/<?php echo ($en) ? 'es' : 'en' ?>.png">
 								<strong><?php echo ($en) ? 'ES' : 'EN' ?></strong>
 							</a>
