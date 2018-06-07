@@ -152,7 +152,7 @@ $lang = array(
                     'Direct participation and staff in the acquisition of equipment for oil rigs and experience in relationship contractors-PEMEX.',
                     'Public accountant by the UNAM.'
                 ],
-                'picture' => 'nouser.jpg'            
+                'picture' => 'jose_ballesteros.jpg'            
             ],
             [
                 'name' => 'Fernando Blanco',

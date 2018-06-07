@@ -143,7 +143,7 @@ $lang = array(
                     'Participación directa y personal en la adquisición de equipo de plataformas petroleras y experiencia en la relación contratistas-PEMEX por 8 años.',
                     'Contador Público por la Universidad Autónoma de México.'
                 ],
-                'picture' => 'nouser.jpg'            
+                'picture' => 'jose_ballesteros.jpg'            
             ],
             [
                 'name' => 'Fernando Blanco',
