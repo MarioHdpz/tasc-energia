@@ -228,7 +228,7 @@ if (isset($_GET['en'])){
 					<div class="container clearfix">
 						
 						<div class="row team-container">
-							<?php foreach ($lang['team']['cardsValidated'] as $key => $card): ?>
+							<?php foreach ($lang['team']['cards'] as $key => $card): ?>
 							<div class="col-xl-12  bottommargin">
 								<div class="team team-list clearfix">
 									<div class="team-image">
