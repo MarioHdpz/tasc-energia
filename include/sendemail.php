@@ -8,7 +8,7 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => getenv('CONTACT_MAIL'), // Your Email Address
+				'email' => getenv('TASC_CONTACT_MAIL'), // Your Email Address
 				'name' => 'Info Tasc Energía' // Your Name
 			);
 
