@@ -1,6 +1,7 @@
 <?php 
 //ESPANOL
 $lang = array(
+    'code' => 'es',
     'main' => [
         'company' => 'Tasc Energía',
         'description'=> 'Somos un equipo Directivo y Gerencial altamente calificado con más de 100 años de experiencia combinada en la Industria Mexicana de Aceite y Gas.',
@@ -210,6 +211,10 @@ $lang = array(
             'subject' => 'Asunto',
             'message' => 'Mensaje',
             'button' => 'Enviar mensaje'
+        ],
+        'response_messages' => [
+            'captcha_error' => 'Captcha no válido! Inténtalo de nuevo.',
+            'success' => 'Hemos recibido <strong>satisfctoriamente</strong> tu correo y responderemos en cuanto sea posible'
         ]
      ]
 

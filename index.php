@@ -44,7 +44,7 @@ if (isset($_GET['en'])){
 	<!-- Document Title
 	============================================= -->
 	<title><?php echo $lang['main']['company']; ?></title>
-
+	<script src='https://www.google.com/recaptcha/api.js?hl=<?php echo $lang['code']; ?>'></script>
 </head>
 
 <body class="stretched">
@@ -228,7 +228,7 @@ if (isset($_GET['en'])){
 					<div class="container clearfix">
 						
 						<div class="row team-container">
-							<?php foreach ($lang['team']['cards'] as $key => $card): ?>
+							<?php foreach ($lang['team']['cardsValidated'] as $key => $card): ?>
 							<div class="col-xl-12  bottommargin">
 								<div class="team team-list clearfix">
 									<div class="team-image">
@@ -342,6 +342,12 @@ if (isset($_GET['en'])){
 								<div class="col_full hidden">
 									<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
 								</div>
+
+								<div class="col_full hidden">
+									<input type="text" id="language" name="language" value="<?php echo $lang['code']; ?>" class="sm-form-control" />
+								</div>
+
+								<div class="g-recaptcha" data-sitekey="6Le1t4kUAAAAACrlRBwy1WfuFwcwyzDZAr_zNyJf"></div>
 
 								<div class="col_full">
 									<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit"><?php echo $lang['contact']['fields']['button']; ?></button>

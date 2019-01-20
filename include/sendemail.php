@@ -8,16 +8,13 @@ require 'phpmailer/src/SMTP.php';
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'info@tasc-energia.com', // Your Email Address
+				'email' => getenv('CONTACT_MAIL'), // Your Email Address
 				'name' => 'Info Tasc Energía' // Your Name
 			);
 
-// Form Processing Messages
-$message_success = 'Hemos recibido <strong>satisfctoriamente</strong> tu correo y responderemos en cuanto sea posible';
-//$message_success = 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.';
 
 // Add this only if you use reCaptcha with your Contact Forms
-$recaptcha_secret = ''; // Your reCaptcha Secret
+$recaptcha_secret = getenv('TASC_RECAPTCHA_SECRET'); // Your reCaptcha Secret
 
 $mail = new PHPMailer();
 
@@ -26,6 +23,15 @@ $mail = new PHPMailer();
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 	if( $_POST['template-contactform-email'] != '' ) {
+
+		if ($_POST['language'] == 'en'){
+			include('../languages/en.php'); 
+		} else {
+			include('../languages/es.php'); 
+		}
+
+		// Form Processing Messages
+		$message_success = $lang['contact']['response_messages']['success'];
 
 		$name = isset( $_POST['template-contactform-name'] ) ? $_POST['template-contactform-name'] : '';
 		$email = isset( $_POST['template-contactform-email'] ) ? $_POST['template-contactform-email'] : '';
@@ -70,7 +76,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 				$g_response = json_decode( $response );
 
 				if ( $g_response->success !== true ) {
-					echo '{ "alert": "error", "message": "Captcha not Validated! Please Try Again." }';
+					echo '{ "alert": "error", "message": "' . $lang['contact']['response_messages']['captcha_error'] . '" }';
 					die;
 				}
 			}

@@ -1,6 +1,7 @@
 <?php 
 //ESPANOL
 $lang = array(
+    'code' => 'en',
     'main' => [
         'company' => 'Tasc Energía',
         'description'=> 'We are a team of directors and managers highly qualified with over 100 years
@@ -221,6 +222,10 @@ $lang = array(
             'subject' => 'Subject',
             'message' => 'Message',
             'button' => 'Send Message'
+        ],
+        'response_messages' => [
+            'captcha_error' => 'Captcha not validated! Please Try Again.',
+            'success' => 'We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.'
         ]
      ]
 

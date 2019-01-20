@@ -13613,3 +13613,5 @@ body:not(.no-transition) #wrapper,
 		top: 90px;
 	}
 }
+
+div.g-recaptcha { margin: 10px 0 }
